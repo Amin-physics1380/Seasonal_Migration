@@ -1,29 +1,54 @@
 # Effect of seasonal migration in selection for geographically-divided population
 
-## Abstract
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+
+## Overview
+
+**Evolutionary Dynamics of Migration Timing under Spatially Heterogeneous Selection**
 
 Evolutionary dynamics studies how new heritable strategies arise and spread through a population. The fate of a mutant type is most simply determined by its intrinsic fitness advantage over the resident, or wild-type, population. However, this simple picture is substantially complicated once spatial structure, environmental heterogeneity, or game-theoretic interactions with neighboring types are introduced — any of these can convert a mutant that would be unconditionally advantageous in a well-mixed population into one that is effectively neutral or even deleterious.
 
 A particularly important and broadly studied factor is the migration, or motility, potential of competing types. A long-standing question in theoretical evolution concerns the conditions under which the acquisition of motility as a new trait increases or decreases a mutant's probability of fixation or its steady-state frequency — there is no universal answer, and the sign of the effect depends sensitively on the details of population structure and how migration is implemented.
 
-A closely related factor is environmental heterogeneity across habitats, which often drives the evolution of "specialist" versus "generalist" strategies. In general, a mutant may be favored in one habitat — for instance, one with more abundant nutrients — while being neutral or actively disfavored relative to residents in another. Migration between such habitats can raise a mutant's overall steady-state frequency by allowing it to colonize and persist in its favorable habitat while continually reseeding the less favorable one. Critically, though, the net effect of migration depends on the specific structure of the migration process — whether it is symmetric or asymmetric between habitats, and how its rate compares to the rates of birth, death, and local selection.
+A closely related factor is environmental heterogeneity across habitats, which often drives the evolution of "specialist" versus "generalist" strategies. In general, a mutant may be favored in one habitat — for instance, one with more abundant nutrients — while being neutral or actively disfavored relative to residents in another. Migration between such habitats can raise a mutant's overall steady-state frequency by allowing it to colonize and persist in its favorable habitat while continually reseeding the less favorable one.
 
-## Research Context and Gap
+This project investigates the **effect of temporal (seasonal) fluctuations in migration** on evolutionary dynamics in a spatially subdivided (two-island) metapopulation. We examine how the *temporal structure* of migration (period, phase, and symmetry) interacts with spatially heterogeneous selection to shape a mutant's long-term success — independent of changes in the time-averaged migration rate.
 
-Previous studies have examined the effects of migration and motility in spatially structured and temporally varying environments from several complementary angles. 
+## Research Gap
 
-In a two-island setting, Princepe et al. demonstrated how intermittent migration — driven by sea-level fluctuations — can generate episodic bursts of speciation even under otherwise neutral dynamics. Complementary work by Cornu (2024) highlights the role of intermittent connectivity in shaping species richness.
+Previous studies have examined migration in spatially structured and temporally varying environments from complementary angles (Princepe et al. on intermittent connectivity and speciation; Blanquart & Gandon 2011/2014, Griswold et al. 2010, Donohue & Piiroinen 2015 on the evolution of migration; Wei et al. 2015 on constant migration under heterogeneous selection). 
 
-A second line of research has focused on the evolution of migration itself under periodic or heterogeneous selection (Blanquart and Gandon 2011, 2014; Griswold et al. 2010; Donohue and Piiroinen 2015).
+This work bridges these threads by focusing specifically on **periodic migration timing** under fixed spatial selection differences.
 
-A third line asks how migration interacts with spatially heterogeneous *selection*. Wei et al. (2015) showed that the rate of gene flow between patches critically regulates whether a mutant beneficial in one habitat but deleterious in another can establish.
+## Model
 
-**This work bridges these threads** by examining how the *temporal structure* of migration itself — its period, phase, and symmetry between habitats — interacts with spatially heterogeneous selection to determine a mutant's long-term success, independently of any change in the time-averaged migration rate.
+We employ the **Death-Birth Moran process** in a two-island system, each with constant population size \(N\).
 
-## The Current Model
+- Mutants (type A) have island-specific fitness (birth rates \(r_{A1}\), \(r_{A2}\)).
+- Residents (type B) have baseline fitness.
+- Migration is a **property of place** (identical for both types) but varies **periodically** in time, mimicking seasonal patterns.
 
-In the current work, we consider a simple **two-deme setting** in which environmental conditions, and hence mutant fitness, differ between two habitats. The migration potential is assumed to be identical for mutants and residents — migration here is a property of place, not of type — but it now has an explicit temporal component, periodic in time, reminiscent of the seasonal migration patterns observed in many ecological and biological systems.
+### Migration Scenarios
 
-We do not model the evolution of this seasonal pattern, nor do we assume the environment itself varies in time: habitat quality is fixed, and only the rate of exchange between habitats oscillates. This isolates the question of how the timing structure of migration alone reshapes the balance between local selection and gene flow.
+1. **Symmetric In-Phase Periodic Migration**  
+   \( W_{12} = W_{21} = \alpha_0 \cos^2(\pi t / T) \)
+
+2. **Symmetric Out-of-Phase Periodic Migration**  
+   \( W_{12}(t) = \alpha_0 \cos^2(\pi t / T) \),  
+   \( W_{21}(t) = \alpha_0 \sin^2(\pi t / T) \)
+
+3. **Asymmetric In-Phase Periodic Migration**  
+   Different amplitudes \(\alpha_0\) and \(\beta_0\) with in-phase oscillation.
+
+4. **Asymmetric Out-of-Phase Periodic Migration**  
+   Phase-shifted asymmetric flows.
+
+Key observables include the long-term average mutant frequency \(\bar{\phi}\) and the phase difference \(\Phi\) between islands.
+
+The deterministic mean-field equations in the large-\(N\) limit govern the dynamics.
+
+## Repository Structure
+
 
 
