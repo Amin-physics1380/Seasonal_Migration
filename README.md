@@ -16,7 +16,7 @@ This project investigates the **effect of temporal (seasonal) fluctuations in mi
 
 Previous studies have examined migration in spatially structured and temporally varying environments from complementary angles (Princepe et al. on intermittent connectivity and speciation; Blanquart & Gandon 2011/2014, Griswold et al. 2010, Donohue & Piiroinen 2015 on the evolution of migration; Wei et al. 2015 on constant migration under heterogeneous selection). 
 
-This work bridges these threads by focusing specifically on **periodic migration timing** under fixed spatial selection differences.
+This work bridges these threads by focusing specifically on **periodic migration** under fixed spatial selection differences.
 
 ## Model
 
