@@ -1,11 +1,8 @@
 # Effect of seasonal migration in selection for geographically-divided population
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 
 ## Overview
-
-**Evolutionary Dynamics of Migration Timing under Spatially Heterogeneous Selection**
 
 Evolutionary dynamics studies how new heritable strategies arise and spread through a population. The fate of a mutant type is most simply determined by its intrinsic fitness advantage over the resident, or wild-type, population. However, this simple picture is substantially complicated once spatial structure, environmental heterogeneity, or game-theoretic interactions with neighboring types are introduced — any of these can convert a mutant that would be unconditionally advantageous in a well-mixed population into one that is effectively neutral or even deleterious.
 
