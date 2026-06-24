@@ -1,4 +1,4 @@
-# Evolutionary Dynamics of Migration Timing under Spatially Heterogeneous Selection
+# Effect of seasonal migration in selection for geographically-divided population
 
 ## Abstract
 
