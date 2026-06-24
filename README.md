@@ -45,7 +45,6 @@ Key observables include the long-term average mutant frequency \(\bar{\phi}\) an
 
 The deterministic mean-field equations in the large-\(N\) limit govern the dynamics.
 
-## Repository Structure
 
 
 
