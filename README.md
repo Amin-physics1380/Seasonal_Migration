@@ -1,6 +1,6 @@
 # Effect of seasonal migration in selection for geographically-divided population
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/)
 
 ## Overview
 
