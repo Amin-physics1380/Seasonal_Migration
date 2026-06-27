@@ -62,9 +62,11 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 ## Outputs
 
 - Time series: \( n_1(t) \), \( n_2(t) \)
-- Long-term average mutant population (average_of_averages)
-- Phase values and phase differences 
-
+- Average mutant population (average_of_averages)
+- Phase differences
+  
+[!Note]
+Phase parameter calculations use the same input parameters as the average population . 
 
 
 
