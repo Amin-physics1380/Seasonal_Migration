@@ -49,7 +49,7 @@ We provide a code written in Python , "Seasonal_Migration." :
 >
 > a.8) Different migration (alpha_0 , beta_0) values
 >
-> a.9) Different birth values for the first island (r_{A1}) and the second island (r_{A2}) 
+> a.9) Different birth rate values for the first island (r_{A1}) and the second island (r_{A2}) 
 
 > [!Note]
 >
