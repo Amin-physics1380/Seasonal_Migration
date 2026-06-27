@@ -31,20 +31,23 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 We provide a code written in Python , "Seasonal_Migration." : 
 > [!IMPORTANT]
 >
-> a)The input parameters in code are :
+> a)The input parameters for average population of the mutants in code are :
 > 
-> a1) Population of mutans in the first island and second island (0.01  , 0.00)
+> a.1) Population of mutans in the first island and second island (0.01  , 0.00)
 > 
-> a2) Total time of the process (100000)
+> a.2) Total time of the process (100000)
 > 
-> a3) Step time (0.1)
+> a.3) Step time (0.1)
 > 
-> a4) Death rate and birth rate of residents (1 , 1)
+> a.4) Death rate and birth rate of residents (1 , 1)
 > 
-> a5) Death rate of mutants (1)
+> a.5) Death rate of mutants (1)
 >
-> a6) Time interval that population is changing stable to the end (40000) 
+> a.6) Time interval that average population changing of the mutants is stable to the end of the process (40000) 
 
+> [!Note]
+>
+> The input parameters for calculate the phase parameter is like to the Average population except :
 
 
 
