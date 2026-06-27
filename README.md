@@ -31,7 +31,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 We provide a code written in Python , "Seasonal_Migration." : 
 > [!IMPORTANT]
 >
-> a)The input parameters in code :
+> a)The input parameters in code are :
 > 
 > a1) Population of mutans in the first island and second island (0.01  , 0.00)
 > 
@@ -41,7 +41,9 @@ We provide a code written in Python , "Seasonal_Migration." :
 > 
 > a4) Death rate and birth rate of residents (1 , 1)
 > 
-> a5) Death rate of mutants (1) 
+> a5) Death rate of mutants (1)
+>
+> a6) Time interval that population is changing stable to the end (40000) 
 
 
 
