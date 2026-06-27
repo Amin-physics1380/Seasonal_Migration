@@ -62,7 +62,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 
 - Mutant population in each island: \( n_1(t) \), \( n_2(t) \)
 - Average mutant population (average_of_averages)
-- Phase differences
+- Phase differencesn (phases) 
   
 > [!Note]
 > 
