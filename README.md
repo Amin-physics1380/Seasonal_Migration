@@ -32,8 +32,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 ## Features
 
 - Numerical integration of population dynamics with seasonal forcing
-- Parameter sweeps over seasonal period \(T\), migration rates, and island-specific birth rates
-- Transient period exclusion for robust stationary-state analysis
+- Parameter sweeps over seasonal period \(T\), migration rates, and island-specific birth rate
 - Computation of long-term average mutant populations
 - Phase analysis for synchronization 
 
