@@ -8,7 +8,7 @@ We employ the **Death-Birth Moran process** in a two-island system, each with co
 
 - Mutants (type A) have island-specific fitness (birth rates \(r_{A1}\), \(r_{A2}\)).
 - Residents (type B) have baseline fitness.
-- Migration is a **property of place** (identical for both types) but varies **periodically** in time, mimicking seasonal patterns.
+- Migration is a **property of place** (identical for both types) but varies **periodically** in time, mimicking seasonal patterns .
 
 ### Migration Scenarios
 
