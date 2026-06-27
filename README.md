@@ -65,8 +65,9 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 - Average mutant population (average_of_averages)
 - Phase differences
   
-[!Note]
-Phase parameter calculations use the same input parameters as the average population . 
+> [!Note]
+> 
+> Phase parameter calculations use the same input parameters as the average population . 
 
 
 
