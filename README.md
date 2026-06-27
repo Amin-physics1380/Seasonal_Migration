@@ -39,6 +39,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 - Phase analysis for synchronization 
 
 ## Model Parameters
+
 We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 
 ### Default / Base Parameters
