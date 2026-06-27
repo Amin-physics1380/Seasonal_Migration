@@ -45,12 +45,11 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 |-------------------------------|--------------|----------------|-----------|
 | Initial population (Island 1) | \( n_1(0) \) | 0.01           | Mutants on Island 1 |
 | Initial population (Island 2) | \( n_2(0) \) | 0.00           | Mutants on Island 2 |
-| Total simulation time         | \( T_{\max} \) | 100,000      | Time units |
-| Time step                     | \( \Delta t \) | 0.1            | Integration step |
-| Resident birth rate           | \( r \)        | 1              | Both islands |
-| Resident death rate           | \( d \)        | 1              | Both islands |
-| Mutant death rate             | \( d_m \)      | 1              | - |
-| Transient exclusion period    | -            | 40,000         | Time units discarded |
+| Total simulation time         | \( t_{f} \) | 100,000      | Time units |
+| Time step                     | \( \delta t \) | 0.01            | Integration step |
+| Resident birth rate           | \( r_{B} \)        | 1              | Both islands |
+| Resident death rate           | \( d_{B} \)        | 1              | Both islands |
+| Mutant death rate             | \( d_{A} \)      | 1              | Both islands |
 
 ### Variable Parameters (Sweeps)
 
