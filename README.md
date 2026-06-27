@@ -65,7 +65,7 @@ We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 ## Outputs
 
 - Mutant population in each island: \( n_1(t) \), \( n_2(t) \)
-- Average mutant population (average_of_averages) or consatnt migration case and periodic migration . 
+- Average mutant population (average_of_averages) for consatnt migration case and periodic migration  
 - Phase differencesn (phases) 
   
 > [!Note]
