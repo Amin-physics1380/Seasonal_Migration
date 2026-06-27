@@ -43,11 +43,27 @@ We provide a code written in Python , "Seasonal_Migration." :
 > 
 > a.5) Death rate of mutants (1)
 >
-> a.6) Time interval that average population changing of the mutants is stable to the end of the process (40000) 
+> a.6) Time interval that average population changing of the mutants is stable to the end of the process (40000)
+>
+> a.7) Different period (T) values
+>
+> a.8) Different migration (alpha_0 , beta_0) values
+>
+> a.9) Different birth values for the first island (r_{A1}) and the second island (r_{A2}) 
 
 > [!Note]
 >
-> The input parameters for calculate the phase parameter is like to the Average population except :
+> The input parameters for calculate the phase parameter is like to the Average population parameter . 
 
-
+> [!IMPORTANT]
+>
+> b) The oputput parameters which we can calculate :
+>
+> b.1) n_1 - population of mutants in the first island
+>
+> b.2) n_2 - population of mutants in the second island
+>
+> b.3) Average_of_averages - average population of mutants
+>
+> b.4) Phases - different phases for different parameters
 
