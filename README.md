@@ -1,6 +1,8 @@
 # Effect of seasonal migration in selection for geographically-divided population
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/)
+- NumPy
+- Matplotlib
 
 ## Model
 
@@ -37,6 +39,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 - Phase analysis for synchronization 
 
 ## Model Parameters
+We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 
 ### Default / Base Parameters
 
@@ -50,7 +53,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
 | Resident death rate           | \( d_{B} \)        | 1              | Both islands |
 | Mutant death rate             | \( d_{A} \)      | 1              | Both islands |
 
-### Variable Parameters (Sweeps)
+### Variable Parameters 
 
 - **Seasonal period** (\( T \))
 - **Migration rates** (\( \alpha_0 \), \( \beta_0 \))
