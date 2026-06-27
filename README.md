@@ -66,7 +66,7 @@ The deterministic mean-field equations in the large-\(N\) limit govern the dynam
   
 > [!Note]
 > 
-> Phase parameter calculations use the same input parameters as the average population . 
+> Phase parameter calculations use the same input parameters as the average population but we calculate phase parameter just for the symmetric in_phase case because in the other scenarios it is negligible.  
 
 
 
