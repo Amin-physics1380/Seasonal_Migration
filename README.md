@@ -10,13 +10,7 @@ A particularly important and broadly studied factor is the migration, or motilit
 
 A closely related factor is environmental heterogeneity across habitats, which often drives the evolution of "specialist" versus "generalist" strategies. In general, a mutant may be favored in one habitat — for instance, one with more abundant nutrients — while being neutral or actively disfavored relative to residents in another. Migration between such habitats can raise a mutant's overall steady-state frequency by allowing it to colonize and persist in its favorable habitat while continually reseeding the less favorable one.
 
-This project investigates the **effect of temporal (seasonal) fluctuations in migration** on evolutionary dynamics in a spatially subdivided (two-island) metapopulation. We examine how the *temporal structure* of migration (period, phase, and symmetry) interacts with spatially heterogeneous selection to shape a mutant's long-term success — independent of changes in the time-averaged migration rate.
-
-## Research Gap
-
-Previous studies have examined migration in spatially structured and temporally varying environments from complementary angles (Princepe et al. on intermittent connectivity and speciation; Blanquart & Gandon 2011/2014, Griswold et al. 2010, Donohue & Piiroinen 2015 on the evolution of migration; Wei et al. 2015 on constant migration under heterogeneous selection). 
-
-This work bridges these threads by focusing specifically on **periodic migration** under fixed spatial selection differences.
+This project investigates the **effect of seasonal fluctuations in migration** on evolutionary dynamics in a spatially subdivided (two-island) metapopulation. We examine how the *temporal structure* of migration (period, phase, and symmetry) interacts with spatially heterogeneous selection to shape a mutant's long-term success — independent of changes in the time-averaged migration rate.
 
 ## Model
 
