@@ -30,7 +30,6 @@ Key observables include the long-term average mutant frequency \(\bar{\phi}\) an
 The deterministic mean-field equations in the large-\(N\) limit govern the dynamics.
 
 > [!IMPORTANT]
-> 
 We provide a code written in Python , "Seasonal_Migration." : 
 
 > a)The input parameters in code :
