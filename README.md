@@ -29,42 +29,43 @@ Key observables include the long-term average mutant frequency \(\bar{\phi}\) an
 
 The deterministic mean-field equations in the large-\(N\) limit govern the dynamics.
 
-We provide a code written in Python , "Seasonal_Migration." : 
-> [!IMPORTANT]
->
-> a)The input parameters for average population of the mutants in code are :
-> 
-> a.1) Population of mutans in the first island and second island (0.01  , 0.00)
-> 
-> a.2) Total time of the process (100000)
-> 
-> a.3) Step time (0.1)
-> 
-> a.4) Death rate and birth rate of residents (1 , 1)
-> 
-> a.5) Death rate of mutants (1)
->
-> a.6) Time interval that average population changing of the mutants is stable to the end of the process (40000)
->
-> a.7) Different period (T) values
->
-> a.8) Different migration (alpha_0 , beta_0) values
->
-> a.9) Different birth rate values for the first island (r_{A1}) and the second island (r_{A2}) 
+## Features
 
-> [!Note]
->
-> The input parameters for calculate the phase parameter is like to the Average population parameter . 
+- Numerical integration of population dynamics with seasonal forcing
+- Parameter sweeps over seasonal period \(T\), migration rates, and island-specific birth rates
+- Transient period exclusion for robust stationary-state analysis
+- Computation of long-term average mutant populations
+- Phase analysis for synchronization 
 
-> [!IMPORTANT]
->
-> b) The oputput parameters which we can calculate :
->
-> b.1) n_1 - population of mutants in the first island
->
-> b.2) n_2 - population of mutants in the second island
->
-> b.3) Average_of_averages - average population of mutants
->
-> b.4) Phases - different phases for different parameters
+## Model Parameters
+
+### Default / Base Parameters
+
+| Parameter                        | Symbol       | Value          | Description |
+|-------------------------------|--------------|----------------|-----------|
+| Initial population (Island 1) | \( n_1(0) \) | 0.01           | Mutants on Island 1 |
+| Initial population (Island 2) | \( n_2(0) \) | 0.00           | Mutants on Island 2 |
+| Total simulation time         | \( T_{\max} \) | 100,000      | Time units |
+| Time step                     | \( \Delta t \) | 0.1            | Integration step |
+| Resident birth rate           | \( r \)        | 1              | Both islands |
+| Resident death rate           | \( d \)        | 1              | Both islands |
+| Mutant death rate             | \( d_m \)      | 1              | - |
+| Transient exclusion period    | -            | 40,000         | Time units discarded |
+
+### Variable Parameters (Sweeps)
+
+- **Seasonal period** (\( T \))
+- **Migration rates** (\( \alpha_0 \), \( \beta_0 \))
+- **Mutant birth rates** (\( r_{A1} \), \( r_{A2} \))
+
+---
+
+## Outputs
+
+- Time series: \( n_1(t) \), \( n_2(t) \)
+- Long-term average mutant population (average_of_averages)
+- Phase values and phase differences 
+
+
+
 
