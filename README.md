@@ -15,7 +15,7 @@ We employ the **Death-Birth Moran process** in a two-island system, each with co
 ### Migration Scenarios
 
 1. **Symmetric In-Phase Periodic Migration**  
-   \( W_{12} = W_{21} = \alpha_0 \cos^2(\pi t / T) \)
+   $$\( W_{12} = W_{21} = \alpha_0 \cos^2(\pi t / T) \)$$
 
 2. **Symmetric Out-of-Phase Periodic Migration**  
    \( W_{12}(t) = \alpha_0 \cos^2(\pi t / T) \),  
