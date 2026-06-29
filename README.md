@@ -29,7 +29,7 @@ We employ the **Death-Birth Moran process** in a two-island system, each with co
 
 Key observables include the long-term average mutant frequency$$ \(\bar{\phi}\) $$ and the phase difference $$ \(\Phi\) $$ between islands.
 
-The deterministic mean-field equations in the large-$$\(N\)$$ limit govern the dynamics.
+The deterministic mean-field equations in the large-\(N\) limit govern the dynamics.
 
 ## Features
 
