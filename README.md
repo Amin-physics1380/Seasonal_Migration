@@ -48,7 +48,7 @@ We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 |-------------------------------|--------------|----------------|-----------|
 | Initial population (Island 1) | $$\( n_1(0) \)$$ | 0.01           | Mutants on Island 1 |
 | Initial population (Island 2) | $$\( n_2(0) \)$$ | 0.00           | Mutants on Island 2 |
-| Total simulation time         | \( t_{f} \) | 100,000      | Time units |
+| Total simulation time         | $$\( t_{f} \)$$ | 100,000      | Time units |
 | Time step                     | $$\( \delta t \)$$ | 0.01            | Integration step |
 | Resident birth rate           | $$\( r_{B} \)$$        | 1              | Both islands |
 | Resident death rate           | $$\( d_{B} \)$$        | 1              | Both islands |
