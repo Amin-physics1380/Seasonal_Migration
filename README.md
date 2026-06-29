@@ -68,7 +68,7 @@ We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 - Phase differences (phases)
 - Birth rate for each island $$(\r_{A1} , \r_{A2})$$
 - Amplitude of migration rate $$(\alpha_0 , \beta_0)$$
-- The time step for data (time)
+- The time step for saving data (time)
 - Average population of mutants which is variable (average_population)
 - Average of the average population which is constant in the periodic migration case (average_of_averages)
 - Average of the average population in the constant migration case (constant_migration) 
