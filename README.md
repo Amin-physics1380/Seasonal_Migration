@@ -66,7 +66,7 @@ We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 
 - Mutant population in each island: $$\( n_1(t) \), \( n_2(t) \)$$ 
 - Phase differences (phases)
-- Birth rate for each island $$(\r_{A1} , \r_{A2})$$
+- Birth rate for each island $$(r_{A1} , r_{A2})$$
 - Amplitude of migration rate $$(\alpha_0 , \beta_0)$$
 - The time step for saving data (time)
 - Average population of mutants which is variable (average_population)
