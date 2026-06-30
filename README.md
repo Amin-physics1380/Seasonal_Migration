@@ -27,7 +27,7 @@ We employ the **Death-Birth Moran process** in a two-island system, each with co
 4. **Asymmetric Out-of-Phase Periodic Migration**  
    Phase-shifted asymmetric flows.
 
-Key observables include the long-term average mutant frequency$$ \(\bar{\phi}\) $$ and the phase difference $$ \(\Phi\) $$ between islands.
+Key observables include the long-term average mutant frequency$$\(\bar{\phi}\)$$ and the phase difference $$\(\Phi\)$$ between islands.
 
 The deterministic mean-field equations in the large-\(N\) limit govern the dynamics.
 
