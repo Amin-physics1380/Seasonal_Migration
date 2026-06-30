@@ -63,9 +63,8 @@ We provide a code written in Python , "Seasonal_Migration.ipynb" which :
 ---
 
 ## Outputs
-This program has several scenario which each of the has its own data in the "Data" file . 
-
-In that excel dataس files we report these parameters : 
+This program includes multiple scenarios, each with its own dedicated dataset stored in the "Data" folder.
+In these Excel files, the following parameters are reported : 
 
 - Mutant population in each island: $$\( n_1(t) \), \( n_2(t) \)$$ 
 - Phase differences (phases)
