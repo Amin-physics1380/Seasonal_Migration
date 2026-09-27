@@ -72,7 +72,6 @@ In these Excel files, the following parameters are reported :
 - Amplitude of migration rate $$(\alpha_0 , \beta_0)$$
 - The time step for saving data (time)
 - Average population of mutants which is variable (average_population)
-- Average of the average population which is constant in the periodic migration case (average_of_averages)
 - Average of the average population in the constant migration case (constant_migration) 
   
 > [!Note]
